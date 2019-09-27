@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size android:width="@dimen/seed_size" android:height="@dimen/seed_size"/>
+            <stroke
+                android:width="1dp"
+                android:color="@color/seed_border_color" />
+
+            <solid android:color="@color/seed_color" />
+
+            <corners android:topLeftRadius="@dimen/button_radius" android:topRightRadius="@dimen/button_radius"
+                android:bottomLeftRadius="@dimen/button_radius" android:bottomRightRadius="@dimen/button_radius"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DnLoadingViewSample</string>
+    <string name="testButton">test</string>
+</resources>

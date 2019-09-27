@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DnLoadingView">
+        <attr name="dn_logo_size_percent" format="integer" />
+        <attr name="dn_logo_image_res" format="integer" />
+        <attr name="dn_seed_image_res" format="integer" />
+        <attr name="dn_seed_color" format="color" />
+        <attr name="dn_seed_count" format="integer" />
+        <attr name="dn_seed_border_color" format="color" />
+        <attr name="dn_seed_size" format="dimension" />
+        <attr name="dn_loader_size_percent" format="integer" />
+        <attr name="dn_loader_max_size" format="dimension" />
+    </declare-styleable>
+
+    <color name="default_seed_color">#00CFDB</color>
+    <color name="default_seed_border_color">#0063A6</color>
+    <integer name="dn_loader_size_90">90</integer>
+    <integer name="dn_loader_size_80">80</integer>
+    <integer name="dn_loader_size_70">70</integer>
+    <integer name="dn_loader_size_60">60</integer>
+    <integer name="dn_loader_size_50">50</integer>
+</resources>

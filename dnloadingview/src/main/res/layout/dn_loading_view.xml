@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/dn_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/loadingContainer"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/progress_indicator_popup"
+                    android:layout_width="100dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="100dp"/>
+                <ImageView
+                    android:id="@+id/progress_logo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>
